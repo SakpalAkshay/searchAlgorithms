@@ -15,3 +15,18 @@ Recursive Steps: If the middle element is greater than the target, the binary se
 Repeat: Steps 2-4 are repeated on the smaller subranges until the base case is reached or the target element is found.
 
 Recursion allows the binary search algorithm to efficiently narrow down the search range by half with each recursive call, leading to a time complexity of O(log n), where n is the number of elements in the array. This is much more efficient than linear search, which has a time complexity of O(n) for a sorted array.
+
+# Linear Search
+Linear Search:
+
+Linear search, also known as sequential search, is a basic searching algorithm that is used to find a specific element within a collection, such as an array or a list. It is straightforward and easy to understand, but it may not be the most efficient for large datasets.
+
+How Linear Search Works:
+
+Input: Linear search requires two inputs - the collection of elements you want to search through and the target element you are looking for.
+
+Process: The algorithm starts at the beginning of the collection and compares each element one by one with the target element until either the target element is found or the entire collection has been searched.
+
+Comparison: For each comparison, the algorithm checks if the current element is equal to the target element. If they are equal, the search is successful, and the index of the element is returned. If they are not equal, the algorithm continues to the next element.
+
+Termination: The linear search terminates when either the target element is found or the end of the collection is reached without finding the target element.
